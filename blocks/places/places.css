@@ -1,0 +1,14 @@
+.places{
+    border:1px solid red;
+    display: flex;
+    flex-direction: column;
+    width: 76.8%;
+    
+}
+@media screen and (min-width:1280px){
+    .places{
+    margin-top:0; 
+    margin:auto;
+    margin-bottom: 92px;
+    }
+}

@@ -1,0 +1,10 @@
+.footer__links{
+    display: flex;
+    border:1px solid red;
+    min-width:465px;
+    height: 18px;
+    margin:0 533px 0 0;
+    padding: 0%;
+    list-style-type: none;
+    justify-content: space-between;
+}

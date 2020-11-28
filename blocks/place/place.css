@@ -1,0 +1,17 @@
+.place{
+    border:1px solid red;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;  
+}
+.place:last-child{
+    margin-bottom:0;
+}
+@media screen and (min-width:1280px){
+    .place{
+        
+        margin:0 0 60px 0;
+        max-height: 660px;
+    }
+}
