@@ -22,7 +22,7 @@
 }
 @media screen and (max-width:425px){
     .place__text{
-    max-width:288px ;
+    max-width:288px;
     align-self: center;
     margin-top:32px;
     }
