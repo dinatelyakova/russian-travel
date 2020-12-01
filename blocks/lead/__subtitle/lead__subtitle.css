@@ -4,7 +4,7 @@
     line-height: 36px;
     color:#FFFFFF;
     text-align: center;
-    margin:0 auto; 
+    margin:0 auto;
     margin-bottom:72px;
     max-width: 640px; 
 }
@@ -14,7 +14,7 @@
         
     }
 }
-@media screen and (max-width:682x){
+@media screen and (max-width:682px){
     .lead__subtitle{
         font-size:20px;
         line-height: 24px;
