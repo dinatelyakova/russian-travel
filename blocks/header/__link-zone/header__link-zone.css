@@ -1,5 +1,9 @@
-@media screen and (min-width:1280px){}
+
+.header__link-zone{
+    margin-top:18px;   
+}
+@media screen and (max-width:425px){
     .header__link-zone{
-    margin-top:18px;
-    
+        margin-top:15px;
+    }
 }

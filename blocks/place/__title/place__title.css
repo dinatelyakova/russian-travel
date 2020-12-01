@@ -2,10 +2,37 @@
     font-size:72px;
     line-height:76px;
     color:#FFFFFF;
-    margin-top:0; 
-    margin-left:0;
-    margin-bottom:48px;
     font-weight: 900;
-    min-height:76px;
-    
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: end; 
+    max-width: 460px;   
+}
+@media screen and (max-width:1050px){
+    .place__title{
+        max-width: 440px;
+    }
+}
+@media screen and (max-width:870px){
+    .place__title{
+        font-size: 42px;
+        line-height: 46px;
+        max-width: 380px;
+    }
+} 
+@media screen and (max-width:768px){
+    .place__title{
+        font-size: 42px;
+        line-height: 46px;
+        max-height: 92px;
+    }
+}
+@media screen and (max-width:425px){
+    .place__title{
+        font-size: 32px;
+        line-height: 35px;
+        max-height: 35px;
+        align-self: center;
+        margin-bottom:0;
+    }
 }

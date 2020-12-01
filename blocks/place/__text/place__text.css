@@ -1,0 +1,28 @@
+.place__text{
+    grid-column:2/3;
+    grid-row: 2/3;  
+}
+.place__text:last-child{
+    padding: 0%;
+}
+@media screen and (max-width:1050px){
+    .place__paragraph{
+        max-width: 456px;
+    }
+}
+@media screen and (max-width:870px){
+    .place__text{
+        max-width: 352px;    
+    }
+}
+@media screen and (max-width:768px){
+    .place__text{
+        max-width: 352px;
+    }
+}
+@media screen and (max-width:425px){
+    .place__text{
+    max-width:288px ;
+    align-self: center;
+    margin-top:32px;
+}

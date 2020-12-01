@@ -1,13 +1,24 @@
 .photo-grid{
-    border:1px solid red;
     display:grid;
-    
-}
-@media screen and (min-width: 1280px){
-    .photo-grid{
+    min-height: 671px;
     margin:0 48px 92px 48px;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
     gap:16px;
+}
+@media screen and (max-width: 1050px){
+    .photo-grid{
+       gap:14px;  
+    }
+}
+@media screen and (max-width: 768px){
+    .photo-grid{
+        margin:0 24px 88px 24px;
+        gap:16px;
+    }
+}
+@media screen and (max-width:425px){
+    .photo-grid{
+        margin: 0 16px 64px 16px;
+        gap:12px;
     }
 }

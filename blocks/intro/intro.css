@@ -1,13 +1,23 @@
 .intro{
-    border:1px solid red;
-    width:690px;
+    max-width:690px;
     min-height:428px;
-    
-}
-@media screen and (min-width: 1280px){
+    margin:0  442px  92px 148px;
+    }
+@media screen and (max-width: 1050px){
     .intro{
-        margin:0  442px  92px 148px;
-        
-
+        margin: 0 286px 92px 48px;
+    }
+}
+@media screen and (max-width:768px){
+    .intro{
+        margin:0 24px 88px 24px;
+        width:calc(100% - 48px);
+    }
+}
+@media screen and (max-width:425px){
+    .intro{
+        width: 90%;
+        max-height: 752px;
+        margin:0 16px 64px 16px;
     }
 }

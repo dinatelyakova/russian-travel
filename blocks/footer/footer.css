@@ -1,13 +1,30 @@
 .footer{
-    padding: 0%;
-    border:1px solid red;
-    display:flex; 
+    margin:0 auto;
+    margin:0 auto;
+    margin-bottom:24px;
+    min-height:18px;
+    max-width: 1184px;
+    display: flex;
     justify-content: space-between;
 }
-@media screen and (min-width: 1280px){
+@media screen and (max-width:1050px){
     .footer{
-    margin: 0 48px 24px 48px;
-    height: 18px;
+        margin-left:48px;
+        margin-right:48px;
+        max-width: 928px;
     }
-    
+}
+@media screen and (max-width:768px){
+    .footer{
+        margin-left:24px;
+        margin-right:24px;
+        max-width: 720px;
+    }
+}
+@media screen and (max-width:628px){
+    .footer{
+        flex-direction: column;
+        min-height: 310px;
+        max-width: 186px;
+    }
 }
