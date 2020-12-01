@@ -1,5 +1,6 @@
 
 .header__link-zone{
+    border:1px solid red;
     margin-top:18px;   
 }
 @media screen and (max-width:425px){
