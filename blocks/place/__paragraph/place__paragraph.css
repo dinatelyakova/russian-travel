@@ -3,12 +3,14 @@
     line-height: 30px;
     font-weight:400;
     color:#FFFFFF;
-    font-family: 'Inter';
     margin:0;
     max-width:484px;  
 }
 .place__paragraph:last-child{
     margin-top: 24px;
+}
+.place__paragraph:first-child{
+    margin:0;
 }
 @media screen and (max-width:1050px){
     .place__paragraph{

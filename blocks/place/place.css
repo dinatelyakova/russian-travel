@@ -11,7 +11,6 @@
 .place:last-child{
     margin-bottom:0;
 }
-
 @media screen and (max-width:1050px){
     .place{
         gap:48px 32px;
@@ -30,13 +29,18 @@
         margin-bottom:72px;
     }
 }
+@media screen and (max-width:700px){
+    .place{
+        display:flex;
+        flex-direction: column;
+        gap:0;
+        width:100%;
+    }
+}
+    
 @media screen and (max-width:425px){
     .place{
-        width:100vw;
-        display: flex;
-        flex-direction: column;
         margin-bottom: 48px;
-        gap:0;
         align-items: center;
         justify-content: center;
     }
